@@ -1,0 +1,86 @@
+<!--Forms in HTML-->
+
+<!--Forms are used to collect data from the user e.g., sign up, login-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in HTML</title>
+</head>
+<body>
+    <main>
+        <h3>Registration Form</h3>
+        <form  action="/action.php">
+            <h6>Enter your Detail here</h6>
+            <input type="text" placeholder="Enter you Email">
+            <br>
+            <input type="password" placeholder="Enter you Password">
+
+            <!--Select tag is used for dropdown window-->
+            <br>
+            <p>Select Your City</p>
+            <select name="City">
+                <option value="Nagpur">Nagpur</option>
+                <option value="Amravati">Amravati</option>
+                <option value="Pune">Pune</option>
+                <option value="Thane">Thane</option>
+                <option value="Mumbai">Mumbai</option>
+            </select>
+        
+
+            <!--Radio button is used only for listening not showing anything-->
+            <h4>Select your Engineering Year</h4>
+            <label for="101">
+            <input type="radio" value="Engineering I" name="Engineering" id="101">Engineering I
+            </label>
+            <br>
+            <label for="102">
+            <input type="radio" value="Engineering II" name="Engineering" id="102">Engineering II
+            </label>
+            <br>
+            <label for="103">
+            <input type="radio" value="Engineering III" name="Engineering" id="103">Engineering III
+            </label>
+            <br>
+            <label for="104">
+            <input type="radio" value="Engineering IV" name="Engineering" id="104">Engineering IV
+            </label>
+
+
+            <!--Creating Checkbox-->
+
+            <h4>Select Your Subjects</h4>
+            <label for="Maths">
+                <input type="checkbox" value="Maths" name="subject" id="101">Maths
+            </label>
+            <br>
+            <label for="Physics">
+                <input type="checkbox" value="Physics" name="subject" id="102">Physics
+            </label>
+            <br>
+            <label for="Chemistry">
+                <input type="checkbox" value="Chemistry" name="subject" id="103">Chemistry
+            </label>
+            <br>
+            <label for="DSA">
+                <input type="checkbox" value="DSA" name="subject" id="104">DSA
+            </label>
+            <br>
+            <br>
+            <textarea name="Feedback" id="101" placeholder="please give your valuable Feedback here" rows="4">Type Your Feedack here</textarea>
+            <br>
+            <br>
+            <input type="submit"  value="Submit">
+
+
+            <!--iframe tag which used to website inside -->
+            <br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/TNzpBP6B98c?si=Xaxvts318FYnxW-B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </form>
+    </main>
+    <video src="/dada.mov">Video</video>
+    <footer></footer>
+</body>
+</html>
